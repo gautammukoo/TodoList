@@ -1,0 +1,112 @@
+    body {
+        margin: 0;
+        min-width: 250px;
+    }
+    
+    * {
+        box-sizing: border-box;
+    }
+
+    .containerDiv {
+        background-color: #008fba;
+        height: 100vh;
+    }
+
+    .header {
+        text-align: center;
+        padding: 20px 40px;
+    }
+
+    .header1 {
+        color: white;
+    }
+
+    .header2 {
+        color:#f7d10f;
+    }
+
+    .header3 {
+        color: #9eff22;
+    }
+
+    .header4 {
+        color: #384921;
+    }
+
+    /* input box styling */
+    input {
+        margin: 0;
+        border: none;
+        outline:none;
+        border-radius: 5px;
+        width: 80%;
+        padding: 10px;
+        font-size: 14px;
+
+    }
+
+    /* add button styling */
+    .addBtn {
+        padding: 10px;
+        width: 25%;
+        background: #d3d3d3;
+        color: #555;
+        margin-left: 10px;
+        text-align: center;
+        font-size: 15px;
+        cursor: pointer;
+        transition: 0.3s;
+        border-radius: 5px;
+      }
+      
+    .addBtn:hover {
+    background-color: #bbb;
+    }
+
+    .pencil-icon {
+        width: 20px;
+    }
+
+    /* list stlying for todo */
+    ul {
+        margin: auto;
+        padding: 0;
+        width: 60%;
+    }
+
+    ul li {
+        cursor: pointer;
+        position: relative;
+        padding: 12px 8px 12px 15px;
+        list-style-type: none;
+        background: #92c0e6;
+        color:white;
+        font-size: 18px;
+        transition: 0.2s;
+        border-radius: 5px;
+        border: 2px solid #342789;
+        /* make the list items unselectable */
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    ul li:hover {
+        background: #a2cfe5;
+    }
+
+    /* close button styling */
+    .close {
+        position: absolute;
+        right: 0;
+        font-size: 26px;
+        font-weight: bold;
+        color:black;
+        top: 0;
+        padding: 7px 10px 8px 10px;
+    }
+      
+    .close:hover {
+    color: black;
+    }
